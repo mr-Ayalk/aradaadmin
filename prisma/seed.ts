@@ -79,6 +79,9 @@ async function main() {
         }
       });
     }
+    await prisma.$executeRawUnsafe(
+      `SELECT setval(pg_get_serial_sequence('"User"', 'id'), COALESCE((SELECT MAX(id) FROM "User"), 1))`
+    );
     console.log(`Imported ${store.users?.length || 0} users from the local HQ store.`);
     return;
   }
@@ -97,6 +100,9 @@ async function main() {
       }
     });
   }
+  await prisma.$executeRawUnsafe(
+    `SELECT setval(pg_get_serial_sequence('"User"', 'id'), COALESCE((SELECT MAX(id) FROM "User"), 1))`
+  );
   console.log("Seeded HQ admin bam@gmail.com / AradaAdmin@2026");
 }
 

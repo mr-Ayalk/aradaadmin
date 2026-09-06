@@ -1,6 +1,7 @@
 import bcrypt from "bcryptjs";
 import { json, options } from "@/lib/http";
 import { prisma } from "@/lib/prisma";
+import { syncUserIdSequence } from "@/lib/ids";
 import { findUser, publicUser } from "@/lib/users";
 
 export function OPTIONS() {
@@ -19,6 +20,7 @@ export async function POST(request: Request) {
     }
     const userType = String(body.user_type || body.usertype || "USER").toUpperCase();
     const wallet = Number(body.wallet) || 0;
+    await syncUserIdSequence();
     const user = await prisma.user.create({
       data: {
         username: body.username || email,
