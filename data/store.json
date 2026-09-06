@@ -1,0 +1,283 @@
+{
+  "nextUserId": 5,
+  "nextGameId": 1,
+  "users": [
+    {
+      "id": 1,
+      "username": "bam@gmail.com",
+      "email": "bam@gmail.com",
+      "phone": "0000",
+      "passwordHash": "$2a$10$NZqPFHuW66vwiCF6sft6m.vuIZCN8Cgl.9YkUlHNy6Rprlxv21inu",
+      "wallet": 100000,
+      "user_type": "ADMIN",
+      "usertype": "ADMIN",
+      "market": "HQ",
+      "is_active": true,
+      "last_login": "2026-09-06T07:43:41.198Z",
+      "created_at": "2026-09-06T03:48:19.463Z"
+    },
+    {
+      "id": 2,
+      "username": "arada@gmail.com",
+      "email": "arada@gmail.com",
+      "phone": "",
+      "passwordHash": "$2a$10$WH3I9ZM9V/l0XZi9Q0QV5e8qXlUcj3yYm0bJW5JvGRGF22QHmCMte",
+      "wallet": 5000,
+      "user_type": "USER",
+      "usertype": "USER",
+      "market": "trial-hall",
+      "is_active": true,
+      "last_login": "2026-09-06T07:45:28.876Z",
+      "created_at": "2026-09-06T03:48:19.894Z"
+    },
+    {
+      "id": 3,
+      "username": "admin@arada.com",
+      "email": "admin@arada.com",
+      "phone": "",
+      "passwordHash": "$2a$10$3eYwCbotIrNO.RNQqVkYCem.mKrJexkyo.UITKz6qHK4RQgmH7Iz.",
+      "wallet": 1,
+      "user_type": "ADMIN",
+      "usertype": "ADMIN",
+      "market": "local",
+      "is_active": true,
+      "last_login": null,
+      "created_at": "2026-09-06T03:48:20.256Z"
+    },
+    {
+      "id": 4,
+      "username": "beki1@gmail.com",
+      "email": "beki1@gmail.com",
+      "phone": "",
+      "passwordHash": "$2a$10$QEMydD.m91RLBsz3uGSzruLlJCpSt2F9FKDpkwDmUp70.vFEFLXDO",
+      "wallet": 5674,
+      "user_type": "USER",
+      "usertype": "USER",
+      "market": "Moyale",
+      "is_active": true,
+      "last_login": "2026-09-06T07:45:00.818Z",
+      "created_at": "2026-09-06T05:11:34.986Z"
+    }
+  ],
+  "tokens": {
+    "ba3be5484a778e973ff45938abf325191c19b9edb24b1944": {
+      "userId": 1,
+      "createdAt": "2026-09-06T03:48:55.180Z"
+    },
+    "441a54f2ea085f77c4e0e9b4cf03956b8b6620c965a3a57a": {
+      "userId": 2,
+      "createdAt": "2026-09-06T03:52:48.857Z"
+    },
+    "803bd54d90b7e9b213b5754ebe3debfcaac86fa84176e3a9": {
+      "userId": 1,
+      "createdAt": "2026-09-06T04:59:42.864Z"
+    },
+    "eaeda3fcbf31cd84a3546e2032395e2c0af9aea940fdc7cc": {
+      "userId": 2,
+      "createdAt": "2026-09-06T05:02:03.072Z"
+    },
+    "fbf6776a5090e683b9a6bc75b082366c4f0e7a62bbb4ce11": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:28.759Z"
+    },
+    "d86056e51fd5890962bb77cec5b1d22becc89a893e8d3f69": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:31.188Z"
+    },
+    "d69e37967b43f507e8565f1746b8da31b35e37a93a8a22b6": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:35.846Z"
+    },
+    "5d0d87d13c70196ddbd69284ddca1e9be17173ef738f2ffa": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:39.262Z"
+    },
+    "3732ce18ab57e5ce3eaddfa8b4c045cfe3f78b9a737a09c0": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:40.180Z"
+    },
+    "58b1a4f03bc2d487df8ded0bbd4c1e356a06808d265d2abb": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:40.535Z"
+    },
+    "071b2b2aa19a2adb33bf6694049f73d315959b8caf820bb7": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:41.002Z"
+    },
+    "a873fb307421610be991e6e267a308bc5b1a33e8f40d0083": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:42.266Z"
+    },
+    "ed596d3e04ea12e5fc3154a934fb1307ff2c63006a77280a": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:57.423Z"
+    },
+    "e29556b83ed904ba912a39877416f0d32a7961d13659e655": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:58.406Z"
+    },
+    "d2fa770a57a6015a89178e2073d7c24626c829446c499f17": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:58.792Z"
+    },
+    "57fae1b9d037c25ad05c5efbb87a60ec1173ad1d733e6686": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:59.174Z"
+    },
+    "66218924d1d72f66794c26b7074a02f492a220a78efd3e2b": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:59.507Z"
+    },
+    "aeb0158765d90d7bde1cfa251bf6eb3974e5e3073f0aba05": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:12:59.840Z"
+    },
+    "d1805ebb8557218671318946095b16626b967ce1d5fe3e4a": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:00.177Z"
+    },
+    "a98b12fcfd6111655444c96bcf6960f8a1e3bda10e9ace55": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:00.530Z"
+    },
+    "cedc23756e0137d2241c99e6318274fe64aebc9868646887": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:00.840Z"
+    },
+    "e77335c81e6a6c652517403c224c3c001e1f74405a053902": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:01.049Z"
+    },
+    "6223b95106ef0cf2ea7ed48f17ace4c2c0e41d3f36bf907a": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:01.203Z"
+    },
+    "8dcbc01d9aabaad39ad5234333b4bd6835537c52caed3d26": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:01.374Z"
+    },
+    "7bc07bca6e31a3ce664112edef20670bbc6c5660be3c78d1": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:01.544Z"
+    },
+    "2e83a20885263e6bdc2520c6b06c6b2cced15baed8764474": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:01.722Z"
+    },
+    "c22376ff7409f5e00acdd48fbe0ad87abac4f0e85bdd455f": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:01.878Z"
+    },
+    "cc0b529c9be0e007a89efe1390edfc4c00b97b88f08b03bb": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:02.051Z"
+    },
+    "23b83d6b2c174851e05a2042d65d96fef6faf8d148305572": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:02.225Z"
+    },
+    "950840521d6fe456ce8d311a967a13b5368bb583d71556b4": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:02.388Z"
+    },
+    "b19c782a521fdb7dd53a1c24367051300ad343429d2ae8e2": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:02.562Z"
+    },
+    "af80723f7419ad62d74b82f807e73843851238b31645c9ee": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:02.976Z"
+    },
+    "2a1a05b883dd7ee7a81cf3914aaab707dca5df4df44db593": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:03.164Z"
+    },
+    "75797324a6079bec306708f740a8324f95f33c2d54b8ca7d": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:03.345Z"
+    },
+    "df145d12c0391d72b0b564f983c9ab92f1a14240fa6a615b": {
+      "userId": 4,
+      "createdAt": "2026-09-06T05:13:29.643Z"
+    },
+    "f157570ade18cc3397227ad88b4be4a47dc66553393f4fd1": {
+      "userId": 2,
+      "createdAt": "2026-09-06T07:18:24.075Z"
+    },
+    "b1286bcd6e2e84292698b221fa98f3cab35a9dce61d01cdb": {
+      "userId": 2,
+      "createdAt": "2026-09-06T07:20:55.916Z"
+    },
+    "20fe51e74f3a1acfa8e1caf757363efa5ed4d735a0ef4624": {
+      "userId": 4,
+      "createdAt": "2026-09-06T07:41:54.616Z"
+    },
+    "decb2234de70934f3e34ce693ab37649cc0c9064a1ccd1ba": {
+      "userId": 4,
+      "createdAt": "2026-09-06T07:41:57.121Z"
+    },
+    "7a84b99717c4beba8a07e1830158bc00eb91eddee106f4ea": {
+      "userId": 4,
+      "createdAt": "2026-09-06T07:41:58.168Z"
+    },
+    "d87f49c447ab99f69a13a2224767d81a4026499ab06887ca": {
+      "userId": 4,
+      "createdAt": "2026-09-06T07:41:59.755Z"
+    },
+    "d5d8cb7a8c5653b4cdbbf2b658a55ef087e889923bf0be3f": {
+      "userId": 4,
+      "createdAt": "2026-09-06T07:42:01.594Z"
+    },
+    "098d64f7c3dedf5020c85bc7637d2c32c716774d14d8055c": {
+      "userId": 1,
+      "createdAt": "2026-09-06T07:43:41.199Z"
+    },
+    "ed5a17858308de7b5b2541b9434d4de6fa8e76e7b9d4c5e6": {
+      "userId": 4,
+      "createdAt": "2026-09-06T07:45:00.819Z"
+    },
+    "754885ec1cd4105ccd528307bb6a827bdca119b03d890170": {
+      "userId": 2,
+      "createdAt": "2026-09-06T07:45:28.877Z"
+    }
+  },
+  "games": [],
+  "walletLogs": [
+    {
+      "id": 3,
+      "userId": 4,
+      "email": "beki1@gmail.com",
+      "previous": 5474,
+      "amount": 5674,
+      "delta": 200,
+      "actorEmail": "bam@gmail.com",
+      "computer_name": "HQ-website",
+      "note": "add",
+      "createdAt": "2026-09-06T05:11:57.918Z"
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "email": "beki1@gmail.com",
+      "previous": 0,
+      "amount": 5474,
+      "delta": 5474,
+      "actorEmail": "signup",
+      "computer_name": "",
+      "note": "created",
+      "createdAt": "2026-09-06T05:11:34.986Z"
+    },
+    {
+      "id": 1,
+      "userId": 2,
+      "email": "arada@gmail.com",
+      "previous": 0,
+      "amount": 5000,
+      "delta": 5000,
+      "actorEmail": "bam@gmail.com",
+      "computer_name": "test",
+      "note": "set",
+      "createdAt": "2026-09-06T03:48:55.691Z"
+    }
+  ]
+}

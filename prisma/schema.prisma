@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           Int         @id @default(autoincrement())
+  username     String
+  email        String      @unique
+  phone        String      @default("")
+  passwordHash String
+  wallet       Int         @default(0)
+  userType     String      @default("USER")
+  market       String      @default("hall")
+  isActive     Boolean     @default(true)
+  lastLogin    DateTime?
+  createdAt    DateTime    @default(now())
+  sessions     Session[]
+  games        Game[]
+  walletLogs   WalletLog[]
+}
+
+model Session {
+  token     String   @id
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+}
+
+model Game {
+  id              Int      @id @default(autoincrement())
+  userId          Int
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  stake           Int      @default(0)
+  numberOfPlayers Int      @default(0)
+  serviceFee      Int      @default(0)
+  createdAt       DateTime @default(now())
+}
+
+model WalletLog {
+  id            Int      @id @default(autoincrement())
+  userId        Int
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  email         String
+  previous      Int
+  amount        Int
+  delta         Int
+  actorEmail    String
+  computerName  String   @default("")
+  note          String   @default("set")
+  createdAt     DateTime @default(now())
+}
